@@ -59,8 +59,7 @@ void loop() {
   }     
 
   row_to_iluminate = map(row_to_iluminate, lower_limit, upper_limit, 32, 0);
-  int intensity = map(row_to_iluminate, lower_limit, upper_limit, 15, 0);
-
+  
   int module = 0;
   int module_row = 8;
   for (int row=0; row < row_to_iluminate; row++) { 
